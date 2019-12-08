@@ -41,7 +41,7 @@ namespace WebApplication11.Controllers
             return course;
         }
 
-        // GET: api/Courses/5
+        // GET: api/Courses/Git
         [HttpGet("Git")]
         public async Task<ActionResult<IEnumerable<Course>>> GetCourseGit()
         {
